@@ -1,0 +1,9 @@
+[console_scripts]
+cv_talker = master_pkg.cv_publisher:main
+gps_talker = master_pkg.gps_publisher:main
+imu_talker = master_pkg.imu_publisher:main
+motor_driver_listener = master_pkg.motor_driver_subscriber:main
+radio_listener = master_pkg.radio_subscriber:main
+slam_listener = master_pkg.slam_subscriber:main
+slam_talker = master_pkg.slam_publisher:main
+
