@@ -1,0 +1,23 @@
+-- Install configuration: ""
+-- Up-to-date: /home/burkehill/adiona_description/install/adiona_description/share/adiona_description/src
+-- Up-to-date: /home/burkehill/adiona_description/install/adiona_description/share/adiona_description/src/description
+-- Installing: /home/burkehill/adiona_description/install/adiona_description/share/adiona_description/src/description/adiona_description.urdf
+-- Up-to-date: /home/burkehill/adiona_description/install/adiona_description/share/adiona_description/launch
+-- Installing: /home/burkehill/adiona_description/install/adiona_description/share/adiona_description/launch/display.launch.py
+-- Up-to-date: /home/burkehill/adiona_description/install/adiona_description/share/adiona_description/rviz
+-- Up-to-date: /home/burkehill/adiona_description/install/adiona_description/share/adiona_description/rviz/urdf_config.rviz
+-- Up-to-date: /home/burkehill/adiona_description/install/adiona_description/share/ament_index/resource_index/package_run_dependencies/adiona_description
+-- Up-to-date: /home/burkehill/adiona_description/install/adiona_description/share/ament_index/resource_index/parent_prefix_path/adiona_description
+-- Up-to-date: /home/burkehill/adiona_description/install/adiona_description/share/adiona_description/environment/ament_prefix_path.sh
+-- Up-to-date: /home/burkehill/adiona_description/install/adiona_description/share/adiona_description/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/burkehill/adiona_description/install/adiona_description/share/adiona_description/environment/path.sh
+-- Up-to-date: /home/burkehill/adiona_description/install/adiona_description/share/adiona_description/environment/path.dsv
+-- Up-to-date: /home/burkehill/adiona_description/install/adiona_description/share/adiona_description/local_setup.bash
+-- Up-to-date: /home/burkehill/adiona_description/install/adiona_description/share/adiona_description/local_setup.sh
+-- Up-to-date: /home/burkehill/adiona_description/install/adiona_description/share/adiona_description/local_setup.zsh
+-- Up-to-date: /home/burkehill/adiona_description/install/adiona_description/share/adiona_description/local_setup.dsv
+-- Installing: /home/burkehill/adiona_description/install/adiona_description/share/adiona_description/package.dsv
+-- Up-to-date: /home/burkehill/adiona_description/install/adiona_description/share/ament_index/resource_index/packages/adiona_description
+-- Up-to-date: /home/burkehill/adiona_description/install/adiona_description/share/adiona_description/cmake/adiona_descriptionConfig.cmake
+-- Up-to-date: /home/burkehill/adiona_description/install/adiona_description/share/adiona_description/cmake/adiona_descriptionConfig-version.cmake
+-- Up-to-date: /home/burkehill/adiona_description/install/adiona_description/share/adiona_description/package.xml
