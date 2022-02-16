@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-1-g15f4949  Build Version: 1.6.7594.29634
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="URDF TEST">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.00385110015791527 0.0280770448699607 -1.04225604390537E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.174077539357314" />
+      <inertia
+        ixx="0.000416751884710947"
+        ixy="1.77575099724344E-06"
+        ixz="-6.98727932946407E-09"
+        iyy="0.000938336848084884"
+        iyz="-4.77852064841354E-08"
+        izz="0.000680761128898231" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ad2_robot/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ad2_robot/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="FLW">
+    <inertial>
+      <origin
+        xyz="0 -2.77555756156289E-17 0.005"
+        rpy="0 0 0" />
+      <mass
+        value="0.0277716790577338" />
+      <inertia
+        ixx="6.59114516303548E-06"
+        ixy="6.35274710440725E-22"
+        ixz="-2.9328147540538E-22"
+        iyy="6.59114516303548E-06"
+        iyz="-1.35271814457724E-21"
+        izz="1.27194290084421E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ad2_robot/meshes/FLW.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ad2_robot/meshes/FLW.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Front Left Wheel"
+    type="continuous">
+    <origin
+      xyz="0.14 0.0772144660940672 0.085"
+      rpy="0 0 0.453067400416879" />
+    <parent
+      link="base_link" />
+    <child
+      link="FLW" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="FRW">
+    <inertial>
+      <origin
+        xyz="0 2.77555756156289E-17 -0.00500000000000002"
+        rpy="0 0 0" />
+      <mass
+        value="0.0277716790577338" />
+      <inertia
+        ixx="6.59114516303548E-06"
+        ixy="2.11758236813575E-22"
+        ixz="1.56036239285577E-22"
+        iyy="6.59114516303548E-06"
+        iyz="-1.12343061991195E-21"
+        izz="1.27194290084421E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ad2_robot/meshes/FRW.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ad2_robot/meshes/FRW.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Front Right Wheel"
+    type="continuous">
+    <origin
+      xyz="0.14 0.0772144660940672 -0.085"
+      rpy="0 0 0.453067400416879" />
+    <parent
+      link="base_link" />
+    <child
+      link="FRW" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="BLW">
+    <inertial>
+      <origin
+        xyz="4.16333634234434E-17 0 0.00499999999999999"
+        rpy="0 0 0" />
+      <mass
+        value="0.0277716790577338" />
+      <inertia
+        ixx="6.59114516303548E-06"
+        ixy="-2.64697796016969E-23"
+        ixz="1.06863007095103E-21"
+        iyy="6.59114516303548E-06"
+        iyz="1.55112771163914E-22"
+        izz="1.27194290084421E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ad2_robot/meshes/BLW.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ad2_robot/meshes/BLW.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Back Left Wheel"
+    type="continuous">
+    <origin
+      xyz="-0.14 0.0772144660940672 0.085"
+      rpy="0 0 -1.61100897623934" />
+    <parent
+      link="base_link" />
+    <child
+      link="BLW" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="BRW">
+    <inertial>
+      <origin
+        xyz="-4.16333634234434E-17 -2.77555756156289E-17 -0.005"
+        rpy="0 0 0" />
+      <mass
+        value="0.0277716790577338" />
+      <inertia
+        ixx="6.59114516303548E-06"
+        ixy="2.11758236813575E-22"
+        ixz="1.56036239285577E-22"
+        iyy="6.59114516303548E-06"
+        iyz="-1.12343061991195E-21"
+        izz="1.27194290084421E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ad2_robot/meshes/BRW.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ad2_robot/meshes/BRW.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Back Right Wheel"
+    type="continuous">
+    <origin
+      xyz="-0.14 0.0772144660940672 -0.085"
+      rpy="0 0 0.453067400416879" />
+    <parent
+      link="base_link" />
+    <child
+      link="BRW" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+</robot>

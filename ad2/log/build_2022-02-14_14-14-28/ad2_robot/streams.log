@@ -1,0 +1,72 @@
+[0.013s] Invoking command in '/home/burkehill/ad2/build/ad2_robot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/burkehill/ad2/build/ad2_robot -- -j8 -l8
+[0.037s] Invoked command in '/home/burkehill/ad2/build/ad2_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/burkehill/ad2/build/ad2_robot -- -j8 -l8
+[0.057s] Invoking command in '/home/burkehill/ad2/build/ad2_robot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/burkehill/ad2/build/ad2_robot
+[0.062s] -- Install configuration: ""
+[0.062s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/config
+[0.062s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/config/ekf.yaml
+[0.063s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/launch
+[0.063s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/launch/install
+[0.063s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/launch/install/local_setup.zsh
+[0.063s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/launch/install/setup.bash
+[0.063s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/launch/install/setup.zsh
+[0.063s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/launch/install/COLCON_IGNORE
+[0.063s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/launch/install/_local_setup_util_ps1.py
+[0.063s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/launch/install/setup.ps1
+[0.063s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/launch/install/local_setup.sh
+[0.064s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/launch/install/_local_setup_util_sh.py
+[0.064s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/launch/install/setup.sh
+[0.064s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/launch/install/local_setup.ps1
+[0.064s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/launch/install/local_setup.bash
+[0.064s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/launch/install/.colcon_install_layout
+[0.064s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/launch/ad2v4.launch.py
+[0.064s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/launch/ad2.launch.py
+[0.064s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/launch/ad2rviz.launch.py
+[0.064s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/launch/ad2again.launch.py
+[0.064s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/launch/ad2v5.launch.py
+[0.064s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/launch/log
+[0.064s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/launch/log/latest_build
+[0.064s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/launch/log/latest_build/logger_all.log
+[0.065s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/launch/log/latest_build/events.log
+[0.065s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/launch/log/build_2022-02-03_10-32-09
+[0.065s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/launch/log/build_2022-02-03_10-32-09/logger_all.log
+[0.065s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/launch/log/build_2022-02-03_10-32-09/events.log
+[0.065s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/launch/log/COLCON_IGNORE
+[0.065s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/launch/log/build_2022-02-03_10-32-45
+[0.065s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/launch/log/build_2022-02-03_10-32-45/logger_all.log
+[0.065s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/launch/log/build_2022-02-03_10-32-45/events.log
+[0.065s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/launch/build
+[0.065s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/launch/build/.built_by
+[0.065s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/launch/build/COLCON_IGNORE
+[0.065s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/maps
+[0.065s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/maps/smalltown_world.yaml
+[0.065s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/maps/smalltown_world.pgm
+[0.066s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/meshes
+[0.066s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/meshes/elbow.stl
+[0.066s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/meshes/wrist.stl
+[0.066s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/meshes/wheel.stl
+[0.066s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/meshes/bicep.stl
+[0.066s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/meshes/robot_base.stl
+[0.066s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/meshes/arm_base.stl
+[0.066s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/models
+[0.067s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/models/ad2_description
+[0.067s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/models/ad2_description/model.config
+[0.067s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/models/ad2_description/meshes
+[0.067s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/models/ad2_description/meshes/elbow.stl
+[0.067s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/models/ad2_description/meshes/wrist.stl
+[0.067s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/models/ad2_description/meshes/wheel.stl
+[0.067s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/models/ad2_description/meshes/bicep.stl
+[0.067s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/models/ad2_description/meshes/robot_base.stl
+[0.067s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/models/ad2_description/meshes/arm_base.stl
+[0.067s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/models/ad2_description/model.sdf
+[0.067s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/models/ad2_model.urdf
+[0.067s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/params
+[0.067s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/params/nav2_params.yaml
+[0.068s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/rviz
+[0.068s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/rviz/nav2_config.rviz
+[0.068s] -- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/rviz/urdf_config.rviz
+[0.068s] CMake Error at cmake_install.cmake:41 (file):
+[0.068s]   file INSTALL cannot find "/home/burkehill/ad2/ad2_robot/src": No such file
+[0.068s]   or directory.
+[0.068s] 
+[0.068s] 
+[0.069s] Invoked command in '/home/burkehill/ad2/build/ad2_robot' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/burkehill/ad2/build/ad2_robot

@@ -1,0 +1,17 @@
+[0.018s] Invoking command in '/home/burkehill/ad2/build/basic_mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/burkehill/ad2/build/basic_mobile_robot -- -j2 -l2
+[0.078s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.114s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.372s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.443s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[0.443s]   ament_package_xml() package name 'basic_mobile_robot' in '/package.xml'
+[0.443s]   does not match current PROJECT_NAME 'ad2_robot'.  You must call project()
+[0.443s]   with the same package name before.
+[0.443s] Call Stack (most recent call first):
+[0.443s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.443s]   CMakeLists.txt:37 (ament_lint_auto_find_test_dependencies)
+[0.443s] 
+[0.444s] 
+[0.444s] -- Configuring incomplete, errors occurred!
+[0.444s] See also "/home/burkehill/ad2/build/basic_mobile_robot/CMakeFiles/CMakeOutput.log".
+[0.446s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.451s] Invoked command in '/home/burkehill/ad2/build/basic_mobile_robot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/burkehill/ad2/build/basic_mobile_robot -- -j2 -l2

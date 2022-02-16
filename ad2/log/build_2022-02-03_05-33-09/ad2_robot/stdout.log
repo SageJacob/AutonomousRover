@@ -1,0 +1,39 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/burkehill/ad2/build/ad2_robot
+-- Install configuration: ""
+-- Installing: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/config
+-- Installing: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/launch
+-- Installing: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/launch/ad2.launch.py
+-- Installing: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/maps
+-- Installing: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/meshes
+-- Installing: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/models
+-- Installing: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/models/ad2_model.urdf
+-- Installing: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/params
+-- Installing: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/rviz
+-- Installing: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/rviz/urdf_config.rviz
+-- Installing: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/src
+-- Installing: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/worlds
+-- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ament_index/resource_index/package_run_dependencies/ad2_robot
+-- Installing: /home/burkehill/ad2/install/ad2_robot/share/ament_index/resource_index/parent_prefix_path/ad2_robot
+-- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/environment/ament_prefix_path.sh
+-- Installing: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/environment/path.sh
+-- Installing: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/environment/path.dsv
+-- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/local_setup.bash
+-- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/local_setup.sh
+-- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/local_setup.zsh
+-- Installing: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/local_setup.dsv
+-- Installing: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/package.dsv
+-- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ament_index/resource_index/packages/ad2_robot
+-- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/cmake/ad2_robotConfig.cmake
+-- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/cmake/ad2_robotConfig-version.cmake
+-- Up-to-date: /home/burkehill/ad2/install/ad2_robot/share/ad2_robot/package.xml
