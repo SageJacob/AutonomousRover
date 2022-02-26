@@ -1,4 +1,4 @@
-# ADIONA - AUTONOMOUS ROVER
+# ADIONA - Autonomous Rover
 
 ## Overview
 
