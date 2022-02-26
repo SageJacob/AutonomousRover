@@ -1,0 +1,46 @@
+[0.063s] Invoking command in '/home/ubuntu/Desktop/adiona_ws/build/adiona_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/Desktop/adiona_ws/adiona_pkg -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/adiona_ws/install/adiona_pkg
+[0.639s] -- The C compiler identification is GNU 9.3.0
+[0.962s] -- The CXX compiler identification is GNU 9.3.0
+[0.983s] -- Check for working C compiler: /usr/bin/cc
+[1.288s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.291s] -- Detecting C compiler ABI info
+[1.542s] -- Detecting C compiler ABI info - done
+[1.559s] -- Detecting C compile features
+[1.561s] -- Detecting C compile features - done
+[1.569s] -- Check for working CXX compiler: /usr/bin/c++
+[1.844s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.848s] -- Detecting CXX compiler ABI info
+[2.189s] -- Detecting CXX compiler ABI info - done
+[2.211s] -- Detecting CXX compile features
+[2.212s] -- Detecting CXX compile features - done
+[2.234s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.315s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.316s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.770s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.948s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.958s] -- Added test 'lint_cmake' to check CMake code style
+[2.964s] -- Added test 'xmllint' to check XML markup files
+[2.973s] -- Configuring done
+[2.984s] -- Generating done
+[2.989s] -- Build files have been written to: /home/ubuntu/Desktop/adiona_ws/build/adiona_pkg
+[2.996s] Invoked command in '/home/ubuntu/Desktop/adiona_ws/build/adiona_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/Desktop/adiona_ws/adiona_pkg -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/adiona_ws/install/adiona_pkg
+[3.006s] Invoking command in '/home/ubuntu/Desktop/adiona_ws/build/adiona_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/Desktop/adiona_ws/build/adiona_pkg -- -j2 -l2
+[3.204s] Invoked command in '/home/ubuntu/Desktop/adiona_ws/build/adiona_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/Desktop/adiona_ws/build/adiona_pkg -- -j2 -l2
+[3.346s] Invoking command in '/home/ubuntu/Desktop/adiona_ws/build/adiona_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/Desktop/adiona_ws/build/adiona_pkg
+[3.399s] -- Install configuration: ""
+[3.400s] -- Installing: /home/ubuntu/Desktop/adiona_ws/install/adiona_pkg/share/ament_index/resource_index/package_run_dependencies/adiona_pkg
+[3.402s] -- Installing: /home/ubuntu/Desktop/adiona_ws/install/adiona_pkg/share/ament_index/resource_index/parent_prefix_path/adiona_pkg
+[3.406s] -- Installing: /home/ubuntu/Desktop/adiona_ws/install/adiona_pkg/share/adiona_pkg/environment/ament_prefix_path.sh
+[3.407s] -- Installing: /home/ubuntu/Desktop/adiona_ws/install/adiona_pkg/share/adiona_pkg/environment/ament_prefix_path.dsv
+[3.411s] -- Installing: /home/ubuntu/Desktop/adiona_ws/install/adiona_pkg/share/adiona_pkg/environment/path.sh
+[3.412s] -- Installing: /home/ubuntu/Desktop/adiona_ws/install/adiona_pkg/share/adiona_pkg/environment/path.dsv
+[3.413s] -- Installing: /home/ubuntu/Desktop/adiona_ws/install/adiona_pkg/share/adiona_pkg/local_setup.bash
+[3.419s] -- Installing: /home/ubuntu/Desktop/adiona_ws/install/adiona_pkg/share/adiona_pkg/local_setup.sh
+[3.419s] -- Installing: /home/ubuntu/Desktop/adiona_ws/install/adiona_pkg/share/adiona_pkg/local_setup.zsh
+[3.419s] -- Installing: /home/ubuntu/Desktop/adiona_ws/install/adiona_pkg/share/adiona_pkg/local_setup.dsv
+[3.420s] -- Installing: /home/ubuntu/Desktop/adiona_ws/install/adiona_pkg/share/adiona_pkg/package.dsv
+[3.420s] -- Installing: /home/ubuntu/Desktop/adiona_ws/install/adiona_pkg/share/ament_index/resource_index/packages/adiona_pkg
+[3.420s] -- Installing: /home/ubuntu/Desktop/adiona_ws/install/adiona_pkg/share/adiona_pkg/cmake/adiona_pkgConfig.cmake
+[3.430s] -- Installing: /home/ubuntu/Desktop/adiona_ws/install/adiona_pkg/share/adiona_pkg/cmake/adiona_pkgConfig-version.cmake
+[3.430s] -- Installing: /home/ubuntu/Desktop/adiona_ws/install/adiona_pkg/share/adiona_pkg/package.xml
+[3.431s] Invoked command in '/home/ubuntu/Desktop/adiona_ws/build/adiona_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/Desktop/adiona_ws/build/adiona_pkg

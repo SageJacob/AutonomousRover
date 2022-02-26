@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="adiona">  
+  <static>false</static>
+
+
+
+  <!-- ********************** ROBOT BASE *********************************  -->
+   <link name="base_link">
+
+    <collision name="base_collision">
+      <pose>0 0 0.1 0 0 0</pose>
+      <geometry>
+        <mesh>
+          <uri>model://testurdf/meshes/base_link.stl</uri>
+        </mesh>
+      </geometry>
+    </collision>
+
+    <visual name="base_visual">
+      <pose>0 0 -0.05 1.5707963267949 0 3.141592654</pose>
+      <geometry>
+        <mesh>
+          <uri>model://testurdf/meshes/base_link.stl</uri>
+          <scale>1.0 1.0 1.0</scale>
+        </mesh>
+      </geometry>
+      <material>
+        <ambient>1.0 0.0 0.0 1.0</ambient>
+        <diffuse>1.0 0.0 0.0 1.0</diffuse>
+        <specular>0.0 0.0 0.0 1.0</specular>
+        <emissive>0.0 0.0 0.0 1.0</emissive>
+      </material>
+    </visual>
+  </link>
+  
+
+  </model>
+</sdf>

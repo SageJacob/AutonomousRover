@@ -1,0 +1,15 @@
+/home/ubuntu/Desktop/adiona_ws/install/adiona_pkg/share/ament_index/resource_index/package_run_dependencies/adiona_pkg
+/home/ubuntu/Desktop/adiona_ws/install/adiona_pkg/share/ament_index/resource_index/parent_prefix_path/adiona_pkg
+/home/ubuntu/Desktop/adiona_ws/install/adiona_pkg/share/adiona_pkg/environment/ament_prefix_path.sh
+/home/ubuntu/Desktop/adiona_ws/install/adiona_pkg/share/adiona_pkg/environment/ament_prefix_path.dsv
+/home/ubuntu/Desktop/adiona_ws/install/adiona_pkg/share/adiona_pkg/environment/path.sh
+/home/ubuntu/Desktop/adiona_ws/install/adiona_pkg/share/adiona_pkg/environment/path.dsv
+/home/ubuntu/Desktop/adiona_ws/install/adiona_pkg/share/adiona_pkg/local_setup.bash
+/home/ubuntu/Desktop/adiona_ws/install/adiona_pkg/share/adiona_pkg/local_setup.sh
+/home/ubuntu/Desktop/adiona_ws/install/adiona_pkg/share/adiona_pkg/local_setup.zsh
+/home/ubuntu/Desktop/adiona_ws/install/adiona_pkg/share/adiona_pkg/local_setup.dsv
+/home/ubuntu/Desktop/adiona_ws/install/adiona_pkg/share/adiona_pkg/package.dsv
+/home/ubuntu/Desktop/adiona_ws/install/adiona_pkg/share/ament_index/resource_index/packages/adiona_pkg
+/home/ubuntu/Desktop/adiona_ws/install/adiona_pkg/share/adiona_pkg/cmake/adiona_pkgConfig.cmake
+/home/ubuntu/Desktop/adiona_ws/install/adiona_pkg/share/adiona_pkg/cmake/adiona_pkgConfig-version.cmake
+/home/ubuntu/Desktop/adiona_ws/install/adiona_pkg/share/adiona_pkg/package.xml

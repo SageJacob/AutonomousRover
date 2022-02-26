@@ -1,0 +1,9 @@
+/home/ubuntu/Desktop/adiona_ws/build/adiona_pkg/CMakeFiles/install/strip.dir
+/home/ubuntu/Desktop/adiona_ws/build/adiona_pkg/CMakeFiles/install/local.dir
+/home/ubuntu/Desktop/adiona_ws/build/adiona_pkg/CMakeFiles/edit_cache.dir
+/home/ubuntu/Desktop/adiona_ws/build/adiona_pkg/CMakeFiles/test.dir
+/home/ubuntu/Desktop/adiona_ws/build/adiona_pkg/CMakeFiles/install.dir
+/home/ubuntu/Desktop/adiona_ws/build/adiona_pkg/CMakeFiles/list_install_components.dir
+/home/ubuntu/Desktop/adiona_ws/build/adiona_pkg/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/Desktop/adiona_ws/build/adiona_pkg/CMakeFiles/adiona_pkg_uninstall.dir
+/home/ubuntu/Desktop/adiona_ws/build/adiona_pkg/CMakeFiles/uninstall.dir

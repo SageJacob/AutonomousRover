@@ -1,0 +1,308 @@
+<?xml version="1.0" ?>
+<robot name="adiona" xmlns:xacro="http://ros.org/wiki/xacro">
+
+
+
+
+  <!-- ****************** ROBOT BASE FOOTPRINT ***************************  -->
+  <!-- Define the center of the main robot chassis projected on the ground -->	
+  <link name="base_footprint"/>
+
+  <!-- The base footprint of the robot is located underneath the chassis -->
+  <joint name="base_joint" type="fixed">
+    <parent link="base_footprint"/>
+    <child link="base_link" />
+    <origin xyz="0.0 0.0 .1" rpy="0 0 0"/>
+  </joint>
+
+  <!-- ********************** ROBOT BASE *********************************  -->
+   <link name="base_link">
+    <visual>
+      <geometry>
+        <mesh
+          filename="package://testurdf/meshes/base_link.STL" />
+      </geometry>
+      <material name="Cyan">
+        <color rgba="0 1.0 1.0 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh
+          filename="package://testurdf/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+
+     <inertial>
+      <origin
+        xyz="-0.0799999999999999 -0.025 0.012452998443296"
+        rpy="0 0 0" />
+      <mass
+        value="1.089035206817" />
+      <inertia
+        ixx="0.00510641838324139"
+        ixy="3.07256964827576E-08"
+        ixz="3.78398322334862E-18"
+        iyy="0.00763384615053912"
+        iyz="2.16420992635418E-18"
+        izz="0.00980796047601373" />
+    </inertial>
+
+    
+  </link>
+
+
+  <!-- *********************** DRIVE WHEELS ******************************  -->
+
+  
+  <!-- *********************** FRONT LEFT ******************************  -->
+    <link name="fl_link">
+    
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+            <mesh
+          filename="package://testurdf/meshes/wheel.STL" />
+        </geometry>
+        <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+        </material>
+      </visual>
+      
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh
+          filename="package://testurdf/meshes/wheel.STL" />
+        </geometry>
+      </collision>
+      
+      <inertial>
+      <origin
+        xyz="0 0.02 -2.77555756156289E-17"
+        rpy="0 0 0" />
+      <mass
+        value="0.251327412287184" />
+      <inertia
+        ixx="0.000162315620435473"
+        ixy="-3.73265984204446E-20"
+        ixz="-1.33851609454622E-20"
+        iyy="0.000257610597594363"
+        iyz="-5.56690427087044E-20"
+        izz="0.000162315620435473" />
+    </inertial>
+        
+    </link>
+
+    
+    <joint name="fl_joint" type="revolute">
+      <parent link="base_link"/>
+      <child link="fl_link"/>
+      <origin xyz="0.108079519869731 0.17 -0.0885718740111423" rpy="0 0 0"/>
+      <limit upper="3.1415" lower="-3.1415" effort="30" velocity="5.0"/>
+      <axis xyz="0 1 0"/>
+    </joint>
+    
+  <!-- *********************** FRONT RIGHT ******************************  -->
+  	
+  <link name="fr_link">
+  	
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+            <mesh
+          filename="package://testurdf/meshes/wheel.STL" />
+        </geometry>
+        <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+        </material>
+      </visual>
+      
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh
+          filename="package://testurdf/meshes/wheel.STL" />
+        </geometry>
+      </collision>
+      
+      <inertial>
+      <origin
+        xyz="1.38777878078145E-17 -0.02 -8.32667268468867E-17"
+        rpy="0 0 0" />
+      <mass
+        value="0.251327412287183" />
+      <inertia
+        ixx="0.000162315620435472"
+        ixy="-3.04982720714871E-20"
+        ixz="-7.31773945359746E-21"
+        iyy="0.000257610597594363"
+        iyz="-5.02864676567348E-20"
+        izz="0.000162315620435472" />
+    </inertial>
+        
+    </link>
+
+    
+    <joint name="fr_joint" type="revolute">
+      <parent link="base_link"/>
+      <child link="fr_link"/>
+      <origin xyz="0.108079519869731 -0.18 -0.0885718740111423" rpy="0 0 0"/>
+      <limit upper="3.1415" lower="-3.1415" effort="30" velocity="5.0"/>
+      <axis xyz="0 1 0"/>
+    </joint>
+    
+  <!-- *********************** BACK LEFT ******************************  -->
+  
+   <link name="bl_link">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+            <mesh
+          filename="package://testurdf/meshes/wheel.STL" />
+        </geometry>
+        <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+        </material>
+      </visual>
+      
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh
+          filename="package://testurdf/meshes/wheel.STL" />
+        </geometry>
+      </collision>
+      
+      <inertial>
+      <origin
+        xyz="-1.66533453693773E-16 0.02 -4.16333634234434E-17"
+        rpy="0 0 0" />
+      <mass
+        value="0.251327412287184" />
+      <inertia
+        ixx="0.000162315620435473"
+        ixy="-1.22285030422671E-20"
+        ixz="-3.34718634869583E-20"
+        iyy="0.000257610597594363"
+        iyz="-3.82141506976127E-20"
+        izz="0.000162315620435473" />
+    </inertial>
+        
+    </link>
+
+    
+    <joint name="bl_joint" type="revolute">
+      <parent link="base_link"/>
+      <child link="bl_link"/>
+      <origin xyz="-0.268079519869731 0.17 -0.0885718740111423" rpy="0 0 0"/>
+      <limit upper="3.1415" lower="-3.1415" effort="30" velocity="5.0"/>
+      <axis xyz="0 1 0"/>
+    </joint>
+    
+  <!-- *********************** BACK RIGHT ******************************  -->
+    <link name="br_link">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+            <mesh
+          filename="package://testurdf/meshes/wheel.STL" />
+        </geometry>
+        <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+        </material>
+      </visual>
+      
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh
+          filename="package://testurdf/meshes/wheel.STL" />
+        </geometry>
+      </collision>
+      
+      <inertial>
+      <origin
+        xyz="-5.55111512312578E-17 -0.02 -6.93889390390723E-17"
+        rpy="0 0 0" />
+      <mass
+        value="0.251327412287183" />
+      <inertia
+        ixx="0.000162315620435473"
+        ixy="-4.87922010778246E-20"
+        ixz="3.99021587737922E-21"
+        iyy="0.000257610597594363"
+        iyz="-5.57510101019126E-20"
+        izz="0.000162315620435473" />
+    </inertial>
+        
+    </link>
+
+    
+    <joint name="br_joint" type="revolute">
+      <parent link="base_link"/>
+      <child link="br_link"/>
+      <origin xyz="-0.268079519869731 -0.18 -0.0885718740111423" rpy="0 0 0"/>
+      <limit upper="3.1415" lower="-3.1415" effort="30" velocity="5.0"/>
+      <axis xyz="0 1 0"/>
+    </joint>
+    
+    
+  <!-- *********************** IMU SETUP *********************************  -->
+  <!-- Each sensor must be attached to a link.                              --> 
+  
+  <joint name="imu_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="imu_link"/>
+    <origin xyz="-.08 -.025 0.06" rpy="0 0 0"/>
+  </joint>
+
+  <link name="imu_link"/>
+    
+    
+    
+  <!-- *********************** LIDAR SETUP **********************************  -->    
+
+   <joint name="lidar_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="lidar_link"/>
+    <origin xyz="-.02 -.025 0.06" rpy="0 0 0"/>
+  </joint>
+
+  <link name="lidar_link">
+  
+    <collision>
+     <origin xyz="0 0 0" rpy="0 0 0"/>
+     <geometry>
+      <cylinder radius="0.0508" length="0.18"/>
+     </geometry>
+    </collision>
+    
+    <visual>
+     <origin xyz="0 0 0" rpy="0 0 0"/>
+     <geometry>
+      <cylinder radius="0.02" length="0.02"/>
+     </geometry>
+     <material name="Black">
+          <color rgba="0 0 0 1.0"/>
+     </material>
+    </visual>
+    
+    <inertial>
+      <mass value="0.114" />
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001" />
+    </inertial>
+  </link>
+  
+  
+
+</robot>
