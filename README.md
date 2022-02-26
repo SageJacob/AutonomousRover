@@ -44,3 +44,20 @@ video
 Adiona is the name of the Roman goddess of safe return. Since our rover's responsibility is to return to the rocket base on it's own, we thought this would be a very fitting name.
 
 ## Members
+
+### Hardware
+
+Lauren Bravine - Computer Engineering
+
+Alexander Davis - Mechanical Engineering
+
+### Software
+
+Dillon Burns - Computer Science
+
+Daniel Volpe - Computer Science
+
+Jacob Sage - Computer Science
+
+Charles McCampbell-Hill - Computer Science
+
