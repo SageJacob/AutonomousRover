@@ -1,5 +1,0 @@
-CMake Error at cmake_install.cmake:41 (file):
-  file INSTALL cannot find "/home/burkehill/ad2/ad2_robot/src": No such file
-  or directory.
-
-

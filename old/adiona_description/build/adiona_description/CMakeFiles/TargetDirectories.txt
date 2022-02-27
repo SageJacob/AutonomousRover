@@ -1,9 +1,0 @@
-/home/burkehill/adiona_description/build/adiona_description/CMakeFiles/install/strip.dir
-/home/burkehill/adiona_description/build/adiona_description/CMakeFiles/install/local.dir
-/home/burkehill/adiona_description/build/adiona_description/CMakeFiles/edit_cache.dir
-/home/burkehill/adiona_description/build/adiona_description/CMakeFiles/test.dir
-/home/burkehill/adiona_description/build/adiona_description/CMakeFiles/install.dir
-/home/burkehill/adiona_description/build/adiona_description/CMakeFiles/list_install_components.dir
-/home/burkehill/adiona_description/build/adiona_description/CMakeFiles/rebuild_cache.dir
-/home/burkehill/adiona_description/build/adiona_description/CMakeFiles/adiona_description_uninstall.dir
-/home/burkehill/adiona_description/build/adiona_description/CMakeFiles/uninstall.dir

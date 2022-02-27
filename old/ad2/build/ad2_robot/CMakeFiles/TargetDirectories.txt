@@ -1,9 +1,0 @@
-/home/burkehill/ad2/build/ad2_robot/CMakeFiles/install/strip.dir
-/home/burkehill/ad2/build/ad2_robot/CMakeFiles/install/local.dir
-/home/burkehill/ad2/build/ad2_robot/CMakeFiles/install.dir
-/home/burkehill/ad2/build/ad2_robot/CMakeFiles/list_install_components.dir
-/home/burkehill/ad2/build/ad2_robot/CMakeFiles/rebuild_cache.dir
-/home/burkehill/ad2/build/ad2_robot/CMakeFiles/edit_cache.dir
-/home/burkehill/ad2/build/ad2_robot/CMakeFiles/test.dir
-/home/burkehill/ad2/build/ad2_robot/CMakeFiles/ad2_robot_uninstall.dir
-/home/burkehill/ad2/build/ad2_robot/CMakeFiles/uninstall.dir

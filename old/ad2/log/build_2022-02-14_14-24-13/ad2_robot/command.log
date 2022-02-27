@@ -1,4 +1,0 @@
-Invoking command in '/home/burkehill/ad2/build/ad2_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/burkehill/ad2/build/ad2_robot -- -j8 -l8
-Invoked command in '/home/burkehill/ad2/build/ad2_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/burkehill/ad2/build/ad2_robot -- -j8 -l8
-Invoking command in '/home/burkehill/ad2/build/ad2_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/burkehill/ad2/build/ad2_robot
-Invoked command in '/home/burkehill/ad2/build/ad2_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/burkehill/ad2/build/ad2_robot

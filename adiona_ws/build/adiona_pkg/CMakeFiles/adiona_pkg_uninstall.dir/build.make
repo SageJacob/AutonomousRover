@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/Desktop/adiona_ws/adiona_pkg
+CMAKE_SOURCE_DIR = /home/ubuntu/Desktop/AutonomousRover/adiona_ws/adiona_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/Desktop/adiona_ws/build/adiona_pkg
+CMAKE_BINARY_DIR = /home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg
 
 # Utility rule file for adiona_pkg_uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/Desktop/adiona_ws/build/adiona_pkg
 include CMakeFiles/adiona_pkg_uninstall.dir/progress.make
 
 CMakeFiles/adiona_pkg_uninstall:
-	/usr/bin/cmake -P /home/ubuntu/Desktop/adiona_ws/build/adiona_pkg/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 adiona_pkg_uninstall: CMakeFiles/adiona_pkg_uninstall
 adiona_pkg_uninstall: CMakeFiles/adiona_pkg_uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/adiona_pkg_uninstall.dir/clean:
 .PHONY : CMakeFiles/adiona_pkg_uninstall.dir/clean
 
 CMakeFiles/adiona_pkg_uninstall.dir/depend:
-	cd /home/ubuntu/Desktop/adiona_ws/build/adiona_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Desktop/adiona_ws/adiona_pkg /home/ubuntu/Desktop/adiona_ws/adiona_pkg /home/ubuntu/Desktop/adiona_ws/build/adiona_pkg /home/ubuntu/Desktop/adiona_ws/build/adiona_pkg /home/ubuntu/Desktop/adiona_ws/build/adiona_pkg/CMakeFiles/adiona_pkg_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Desktop/AutonomousRover/adiona_ws/adiona_pkg /home/ubuntu/Desktop/AutonomousRover/adiona_ws/adiona_pkg /home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg /home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg /home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg/CMakeFiles/adiona_pkg_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/adiona_pkg_uninstall.dir/depend
 

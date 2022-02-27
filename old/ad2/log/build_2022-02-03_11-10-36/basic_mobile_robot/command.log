@@ -1,2 +1,0 @@
-Invoking command in '/home/burkehill/ad2/build/basic_mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/burkehill/ad2/build/basic_mobile_robot -- -j2 -l2
-Invoked command in '/home/burkehill/ad2/build/basic_mobile_robot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/burkehill/ad2/build/basic_mobile_robot -- -j2 -l2
