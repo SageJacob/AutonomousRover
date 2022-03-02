@@ -1,6 +1,8 @@
 /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/launch/urdftest.launch.py
-/home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/meshes/base_link.STL
 /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/meshes/wheel.STL
+/home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/meshes/base_link.STL
+/home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/models/adiona_description/model.config
+/home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/models/adiona_description/adiona.sdf
 /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/models/adiona.urdf
 /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/rviz/rviz_basic_settings.rviz
 /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/ament_index/resource_index/package_run_dependencies/adiona_pkg
