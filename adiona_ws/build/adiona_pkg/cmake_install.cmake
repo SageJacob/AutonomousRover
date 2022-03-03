@@ -38,77 +38,15 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/adiona_pkg" TYPE DIRECTORY FILES
-    "/home/ubuntu/Desktop/AutonomousRover/adiona_ws/adiona_pkg/config"
-    "/home/ubuntu/Desktop/AutonomousRover/adiona_ws/adiona_pkg/launch"
-    "/home/ubuntu/Desktop/AutonomousRover/adiona_ws/adiona_pkg/maps"
-    "/home/ubuntu/Desktop/AutonomousRover/adiona_ws/adiona_pkg/meshes"
-    "/home/ubuntu/Desktop/AutonomousRover/adiona_ws/adiona_pkg/models"
-    "/home/ubuntu/Desktop/AutonomousRover/adiona_ws/adiona_pkg/params"
-    "/home/ubuntu/Desktop/AutonomousRover/adiona_ws/adiona_pkg/rviz"
-    "/home/ubuntu/Desktop/AutonomousRover/adiona_ws/adiona_pkg/scripts"
-    "/home/ubuntu/Desktop/AutonomousRover/adiona_ws/adiona_pkg/src"
-    "/home/ubuntu/Desktop/AutonomousRover/adiona_ws/adiona_pkg/worlds"
-    )
+  include("/home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/adiona_pkg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/adiona_pkg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/adiona_pkg/environment" TYPE FILE FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/adiona_pkg/environment" TYPE FILE FILES "/home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg/ament_cmake_environment_hooks/ament_prefix_path.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/adiona_pkg/environment" TYPE FILE FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/adiona_pkg/environment" TYPE FILE FILES "/home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg/ament_cmake_environment_hooks/path.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/adiona_pkg" TYPE FILE FILES "/home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg/ament_cmake_environment_hooks/local_setup.bash")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/adiona_pkg" TYPE FILE FILES "/home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg/ament_cmake_environment_hooks/local_setup.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/adiona_pkg" TYPE FILE FILES "/home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg/ament_cmake_environment_hooks/local_setup.zsh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/adiona_pkg" TYPE FILE FILES "/home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg/ament_cmake_environment_hooks/local_setup.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/adiona_pkg" TYPE FILE FILES "/home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg/ament_cmake_environment_hooks/package.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg/ament_cmake_index/share/ament_index/resource_index/packages/adiona_pkg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/adiona_pkg/cmake" TYPE FILE FILES
-    "/home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg/ament_cmake_core/adiona_pkgConfig.cmake"
-    "/home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg/ament_cmake_core/adiona_pkgConfig-version.cmake"
-    )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/adiona_pkg" TYPE FILE FILES "/home/ubuntu/Desktop/AutonomousRover/adiona_ws/adiona_pkg/package.xml")
+  execute_process(
+        COMMAND
+        "/usr/bin/python3" "-m" "compileall"
+        "/home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/lib/python3.8/site-packages/scripts/"
+      )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

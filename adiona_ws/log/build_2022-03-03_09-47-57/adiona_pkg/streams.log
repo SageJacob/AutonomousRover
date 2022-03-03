@@ -1,0 +1,10 @@
+[0.075s] Invoking command in '/home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg': /usr/bin/cmake --build /home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg -- -j2 -l2
+[0.210s] CMake Error at CMakeLists.txt:30:
+[0.210s]   Parse error.  Expected a command name, got unquoted argument with text
+[0.210s]   "scripts/battery_state/battery_state_pub.py".
+[0.210s] 
+[0.211s] 
+[0.211s] -- Configuring incomplete, errors occurred!
+[0.211s] See also "/home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg/CMakeFiles/CMakeOutput.log".
+[0.228s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.242s] Invoked command in '/home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg' returned '2': /usr/bin/cmake --build /home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg -- -j2 -l2

@@ -1,0 +1,105 @@
+[0.000000] (-) TimerEvent: {}
+[0.000289] (adiona_pkg) JobQueued: {'identifier': 'adiona_pkg', 'dependencies': OrderedDict()}
+[0.000343] (adiona_pkg) JobStarted: {'identifier': 'adiona_pkg'}
+[0.013284] (adiona_pkg) JobProgress: {'identifier': 'adiona_pkg', 'progress': 'cmake'}
+[0.015288] (adiona_pkg) JobProgress: {'identifier': 'adiona_pkg', 'progress': 'build'}
+[0.016081] (adiona_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg', '--', '-j2', '-l2'], 'cwd': '/home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '1611'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1436'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/Desktop/AutonomousRover/adiona_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:56311'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1650,unix/ubuntu:/tmp/.ICE-unix/1650'), ('INVOCATION_ID', '85fd6afe998f41f3b905c11c3b6ce49a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/56769720_591f_449d_9852_43c395026622'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.231'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg:/opt/ros/foxy')]), 'shell': False}
+[0.072685] (adiona_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.091740] (-) TimerEvent: {}
+[0.099704] (adiona_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.191898] (-) TimerEvent: {}
+[0.292433] (-) TimerEvent: {}
+[0.320447] (adiona_pkg) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.392611] (-) TimerEvent: {}
+[0.413169] (adiona_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.444413] (adiona_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.492791] (-) TimerEvent: {}
+[0.590472] (adiona_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.592949] (-) TimerEvent: {}
+[0.627647] (adiona_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.693293] (-) TimerEvent: {}
+[0.744424] (adiona_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.793451] (-) TimerEvent: {}
+[0.866371] (adiona_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.870070] (adiona_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.874100] (adiona_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.894022] (-) TimerEvent: {}
+[0.994951] (-) TimerEvent: {}
+[1.095524] (-) TimerEvent: {}
+[1.196804] (-) TimerEvent: {}
+[1.199786] (adiona_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.201360] (adiona_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.297021] (-) TimerEvent: {}
+[1.315754] (adiona_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.315998] (adiona_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.397388] (-) TimerEvent: {}
+[1.422162] (adiona_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.422709] (adiona_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.497826] (-) TimerEvent: {}
+[1.562854] (adiona_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.564670] (adiona_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.598043] (-) TimerEvent: {}
+[1.698641] (-) TimerEvent: {}
+[1.799295] (-) TimerEvent: {}
+[1.808734] (adiona_pkg) StdoutLine: {'line': b'-- Found rclpy: 1.0.7 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[1.809603] (adiona_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.892790] (adiona_pkg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.896601] (adiona_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.897548] (adiona_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.898229] (adiona_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.899386] (-) TimerEvent: {}
+[1.900766] (adiona_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.904285] (adiona_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.909296] (adiona_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.912793] (adiona_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg\n'}
+[1.952994] (adiona_pkg) CommandEnded: {'returncode': 0}
+[1.995529] (adiona_pkg) JobProgress: {'identifier': 'adiona_pkg', 'progress': 'install'}
+[1.999803] (-) TimerEvent: {}
+[2.011077] (adiona_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg'], 'cwd': '/home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '1611'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1436'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/Desktop/AutonomousRover/adiona_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:56311'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1650,unix/ubuntu:/tmp/.ICE-unix/1650'), ('INVOCATION_ID', '85fd6afe998f41f3b905c11c3b6ce49a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/56769720_591f_449d_9852_43c395026622'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.231'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg:/opt/ros/foxy')]), 'shell': False}
+[2.027807] (adiona_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.028531] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/config\n'}
+[2.028939] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/config/blank.txt\n'}
+[2.029219] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/launch\n'}
+[2.029396] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/launch/urdftest.launch.py\n'}
+[2.029549] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/maps\n'}
+[2.029717] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/maps/blank.txt\n'}
+[2.029863] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/meshes\n'}
+[2.030029] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/meshes/base_link.STL\n'}
+[2.030181] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/meshes/wheel.STL\n'}
+[2.030328] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/models\n'}
+[2.031278] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/models/adiona.urdf\n'}
+[2.031611] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/models/adiona_description\n'}
+[2.032809] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/models/adiona_description/adiona.sdf\n'}
+[2.033296] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/models/adiona_description/model.config\n'}
+[2.033559] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/params\n'}
+[2.033835] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/params/blank.txt\n'}
+[2.034083] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/rviz\n'}
+[2.034354] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/rviz/rviz_basic_settings.rviz\n'}
+[2.034601] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/scripts\n'}
+[2.034870] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/scripts/blank.txt\n'}
+[2.035129] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/scripts/battery_state\n'}
+[2.035413] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/scripts/battery_state/battery_state_pub.py\n'}
+[2.035721] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/src\n'}
+[2.035992] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/src/blank.txt\n'}
+[2.036237] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/worlds\n'}
+[2.036502] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/worlds/blank.txt\n'}
+[2.036826] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/lib/adiona_pkg/battery_state_pub.py\n'}
+[2.037158] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/ament_index/resource_index/package_run_dependencies/adiona_pkg\n'}
+[2.037470] (adiona_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/ament_index/resource_index/parent_prefix_path/adiona_pkg\n'}
+[2.038005] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/environment/ament_prefix_path.sh\n'}
+[2.038331] (adiona_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/environment/ament_prefix_path.dsv\n'}
+[2.038787] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/environment/path.sh\n'}
+[2.039093] (adiona_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/environment/path.dsv\n'}
+[2.039618] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/local_setup.bash\n'}
+[2.039917] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/local_setup.sh\n'}
+[2.040207] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/local_setup.zsh\n'}
+[2.040493] (adiona_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/local_setup.dsv\n'}
+[2.041235] (adiona_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/package.dsv\n'}
+[2.041713] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/ament_index/resource_index/packages/adiona_pkg\n'}
+[2.042026] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/cmake/adiona_pkgConfig.cmake\n'}
+[2.042279] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/cmake/adiona_pkgConfig-version.cmake\n'}
+[2.042571] (adiona_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/package.xml\n'}
+[2.053133] (adiona_pkg) CommandEnded: {'returncode': 0}
+[2.100030] (-) TimerEvent: {}
+[2.127392] (adiona_pkg) JobEnded: {'identifier': 'adiona_pkg', 'rc': 0}
+[2.128478] (-) EventReactorShutdown: {}
