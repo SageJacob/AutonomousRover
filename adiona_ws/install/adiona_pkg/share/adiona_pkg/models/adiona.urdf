@@ -6,6 +6,8 @@
 
   <!-- ****************** ROBOT BASE FOOTPRINT ***************************  -->
   <!-- Define the center of the main robot chassis projected on the ground -->	
+
+  <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
   <link name="base_footprint"/>
 
   <!-- The base footprint of the robot is located underneath the chassis -->
@@ -376,6 +378,9 @@
   <child link="camera_depth_frame"/>
 </joint>
 
+
+ <!-- *********************** CAMERA SETUP **********************************  -->  
+
 <gazebo reference="camera_link">
   <sensor name="depth_camera" type="depth">
     <visualize>true</visualize>
@@ -412,6 +417,15 @@
     </plugin>
   </sensor>
 </gazebo>
+
+<!-- *********************** GPS SETUP **********************************  -->
+  <joint name="gps_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="gps_link"/>
+    <origin xyz="-.1 -.025 0.06" rpy="0 0 0"/>
+  </joint>
+
+  <link name="gps_link"/>
   
 
 </robot>
