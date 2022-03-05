@@ -1,7 +1,0 @@
--- Install configuration: ""
-CMake Error at cmake_install.cmake:41 (file):
-  file INSTALL cannot find
-  "/home/ubuntu/Desktop/AutonomousRover/adiona_ws/adiona_pkg/config": No such
-  file or directory.
-
-

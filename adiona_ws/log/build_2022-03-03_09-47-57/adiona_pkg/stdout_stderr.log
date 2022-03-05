@@ -1,8 +1,0 @@
-CMake Error at CMakeLists.txt:30:
-  Parse error.  Expected a command name, got unquoted argument with text
-  "scripts/battery_state/battery_state_pub.py".
-
-
--- Configuring incomplete, errors occurred!
-See also "/home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg/CMakeFiles/CMakeOutput.log".
-make: *** [Makefile:222: cmake_check_build_system] Error 1

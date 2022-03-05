@@ -1,1 +1,0 @@
-/home/ubuntu/Desktop/AutonomousRover/adiona_ws/adiona_pkg/params/blank.txt

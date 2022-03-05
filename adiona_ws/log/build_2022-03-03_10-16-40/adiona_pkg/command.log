@@ -1,2 +1,0 @@
-Invoking command in '/home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg -- -j2 -l2
-Invoked command in '/home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg -- -j2 -l2

@@ -1,5 +1,0 @@
-CMake Error at CMakeLists.txt:30 (install):
-  install PROGRAMS given no DESTINATION!
-
-
-make: *** [Makefile:222: cmake_check_build_system] Error 1
