@@ -274,10 +274,10 @@
 
   <!-- *********************** DRIVE WHEELS ******************************  -->
   
-  <link name="r_drivewhl_l_link">
+  <link name="bl_link">
     <pose>-0.2 0.15 -0.05 0 1.570796 1.570796</pose>
     
-    <collision name="r_drivewhl_l_collision">
+    <collision name="bl_link_collision">
       <geometry>
         <cylinder>
           <radius>0.035</radius>
@@ -286,7 +286,7 @@
       </geometry>
     </collision>
 
-    <visual name="r_drivewhl_l_visual">
+    <visual name="bl_link_visual">
       <geometry>
         <cylinder>
           <radius>0.035</radius>
@@ -296,10 +296,10 @@
     </visual>
   </link>
 
-  <link name="r_drivewhl_r_link">
+  <link name="br_link">
     <pose>-0.2 -0.15 -0.05 0 1.570796 1.570796</pose>
     
-    <collision name="r_drivewhl_r_collision">
+    <collision name="br_link_collision">
       <geometry>
         <cylinder>
           <radius>0.035</radius>
@@ -308,7 +308,7 @@
       </geometry>
     </collision>
 
-    <visual name="r_drivewhl_r_visual">
+    <visual name="br_link_visual">
       <geometry>
         <cylinder>
           <radius>0.035</radius>
@@ -318,10 +318,10 @@
     </visual>
   </link>
   
-    <link name="f_drivewhl_l_link">
+    <link name="fl_link">
     <pose>0.2 0.15 -0.05 0 1.570796 1.570796</pose>
     
-    <collision name="f_drivewhl_l_collision">
+    <collision name="fl_link_collision">
       <geometry>
         <cylinder>
           <radius>0.035</radius>
@@ -330,7 +330,7 @@
       </geometry>
     </collision>
 
-    <visual name="f_drivewhl_l_visual">
+    <visual name="fl_link_visual">
       <geometry>
         <cylinder>
           <radius>0.035</radius>
@@ -341,10 +341,10 @@
   </link>
   
   
-    <link name="f_drivewhl_r_link">
+    <link name="fr_link">
     <pose>0.2 -0.15 -0.05 0 1.570796 1.570796</pose>
     
-    <collision name="f_drivewhl_r_collision">
+    <collision name="fr_link_collision">
       <geometry>
         <cylinder>
           <radius>0.035</radius>
@@ -353,7 +353,7 @@
       </geometry>
     </collision>
 
-    <visual name="f_drivewhl_r_visual">
+    <visual name="fr_link_visual">
       <geometry>
         <cylinder>
           <radius>0.035</radius>
@@ -375,36 +375,36 @@
     <pose>0 0 0 0 0</pose>
   </joint>
 
-  <joint name="r_drivewhl_l_joint" type="revolute">
+  <joint name="bl_joint" type="revolute">
     <parent>base_link</parent>
-    <child>r_drivewhl_l_link</child>
+    <child>bl_link</child>
     <pose>0 0 0 0 0 0</pose>
     <axis>
       <xyz>0 0 1</xyz>
     </axis>
   </joint>
 
-  <joint name="r_drivewhl_r_joint" type="revolute">
+  <joint name="br_joint" type="revolute">
     <parent>base_link</parent>
-    <child>r_drivewhl_r_link</child>
+    <child>br_link</child>
     <pose>0 0 0 0 0 0</pose>
     <axis>
       <xyz>0 0 1</xyz>
     </axis>
   </joint>
   
-   <joint name="f_drivewhl_l_joint" type="revolute">
+   <joint name="fl_joint" type="revolute">
     <parent>base_link</parent>
-    <child>f_drivewhl_l_link</child>
+    <child>fl_link</child>
     <pose>0 0 0 0 0 0</pose>
     <axis>
       <xyz>0 0 1</xyz>
     </axis>
   </joint>
   
-   <joint name="f_drivewhl_r_joint" type="revolute">
+   <joint name="fr_joint" type="revolute">
     <parent>base_link</parent>
-    <child>f_drivewhl_r_link</child>
+    <child>fr_link</child>
     <pose>0 0 0 0 0 0</pose>
     <axis>
       <xyz>0 0 1</xyz>
@@ -441,10 +441,10 @@
     <update_rate>30</update_rate>
     <num_wheel_pairs>2</num_wheel_pairs>
     <!-- wheels -->
-    <left_joint>r_drivewhl_l_joint</left_joint>
-    <right_joint>r_drivewhl_r_joint</right_joint>
-    <left_joint>f_drivewhl_l_joint</left_joint>
-    <right_joint>f_drivewhl_r_joint</right_joint>
+    <left_joint>bl_joint</left_joint>
+    <right_joint>br_joint</right_joint>
+    <left_joint>fl_joint</left_joint>
+    <right_joint>fr_joint</right_joint>
 
 
     <!-- kinematics -->
@@ -491,10 +491,10 @@
       <remapping>~/out:=joint_states</remapping>
     </ros>
     <update_rate>30</update_rate>
-    <joint_name>r_drivewhl_l_joint</joint_name>
-    <joint_name>r_drivewhl_r_joint</joint_name>
-    <joint_name>f_drivewhl_l_joint</joint_name>
-    <joint_name>f_drivewhl_l_joint</joint_name>
+    <joint_name>bl_joint</joint_name>
+    <joint_name>br_joint</joint_name>
+    <joint_name>fl_joint</joint_name>
+    <joint_name>fr_joint</joint_name>
   </plugin>   
   
   </model>
