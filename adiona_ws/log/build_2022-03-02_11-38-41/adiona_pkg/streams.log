@@ -1,0 +1,38 @@
+[0.012s] Invoking command in '/home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg': /usr/bin/cmake --build /home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg -- -j8 -l8
+[0.037s] Invoked command in '/home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg' returned '0': /usr/bin/cmake --build /home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg -- -j8 -l8
+[0.059s] Invoking command in '/home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg': /usr/bin/cmake --install /home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg
+[0.063s] -- Install configuration: ""
+[0.064s] -- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/config
+[0.064s] -- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/launch
+[0.064s] -- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/launch/urdftest.launch.py
+[0.064s] -- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/maps
+[0.064s] -- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/meshes
+[0.064s] -- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/meshes/wheel.STL
+[0.064s] -- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/meshes/base_link.STL
+[0.064s] -- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/models
+[0.064s] -- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/models/adiona_description
+[0.064s] -- Installing: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/models/adiona_description/adiona.config
+[0.065s] -- Installing: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/models/adiona_description/adiona.sdf
+[0.065s] -- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/models/adiona.urdf
+[0.065s] -- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/params
+[0.065s] -- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/rviz
+[0.065s] -- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/rviz/rviz_basic_settings.rviz
+[0.065s] -- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/scripts
+[0.065s] -- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/src
+[0.065s] -- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/worlds
+[0.065s] -- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/ament_index/resource_index/package_run_dependencies/adiona_pkg
+[0.065s] -- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/ament_index/resource_index/parent_prefix_path/adiona_pkg
+[0.065s] -- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/environment/ament_prefix_path.sh
+[0.065s] -- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/environment/ament_prefix_path.dsv
+[0.065s] -- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/environment/path.sh
+[0.066s] -- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/environment/path.dsv
+[0.066s] -- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/local_setup.bash
+[0.066s] -- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/local_setup.sh
+[0.066s] -- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/local_setup.zsh
+[0.066s] -- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/local_setup.dsv
+[0.066s] -- Installing: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/package.dsv
+[0.066s] -- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/ament_index/resource_index/packages/adiona_pkg
+[0.066s] -- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/cmake/adiona_pkgConfig.cmake
+[0.066s] -- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/cmake/adiona_pkgConfig-version.cmake
+[0.066s] -- Up-to-date: /home/ubuntu/Desktop/AutonomousRover/adiona_ws/install/adiona_pkg/share/adiona_pkg/package.xml
+[0.067s] Invoked command in '/home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg' returned '0': /usr/bin/cmake --install /home/ubuntu/Desktop/AutonomousRover/adiona_ws/build/adiona_pkg
