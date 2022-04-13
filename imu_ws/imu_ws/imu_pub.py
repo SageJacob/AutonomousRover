@@ -51,11 +51,11 @@ class MinimalPublisher(Node):
     # Initialize the parameters of the class
     def __init__(self):
         super().__init__('minimal_publisher')
-        self.acceleration_publisher_ = self.create_publisher(String, 'scan', 10) # publish to scan topic
-        self.gyroscope_publisher_ = self.create_publisher(String, 'scan', 10) # publish to scan topic
-        self.rotation_publisher_ = self.create_publisher(String, 'scan', 10) # publish to scan topic
-        self.quarternionpublisher_ = self.create_publisher(String, 'scan', 10) # publish to scan topic
-        self.accuracy_publisher_ = self.create_publisher(String, 'scan', 10) # publish to scan topic
+        self.acceleration_publisher_ = self.create_publisher(String, 'test', 10) # publish to scan topic
+        self.gyroscope_publisher_ = self.create_publisher(String, 'test', 10) # publish to scan topic
+        self.rotation_publisher_ = self.create_publisher(String, 'test', 10) # publish to scan topic
+        self.quarternion_publisher_ = self.create_publisher(String, 'test', 10) # publish to scan topic
+        self.accuracy_publisher_ = self.create_publisher(String, 'test', 10) # publish to scan topic
         timer_period = 0.5  # seconds
         self.timer = self.create_timer(timer_period, self.timer_callback)
         self.i = 0
@@ -87,13 +87,13 @@ class MinimalPublisher(Node):
 
                 msg = String()
                 msg.data = f"Accelerometer [m/s^2]: x: {imuF.format(acceleroValues.x)} y: {imuF.format(acceleroValues.y)} z: {imuF.format(acceleroValues.z)}"
-                self.publisher_.publish(msg)
+                self.acceleration_publisher_.publish(msg)
                 self.get_logger().info("%s" % msg.data)
                 self.i += 1
 
                 msg_2 = String()
                 msg_2.data = f"Gyroscope [rad/s]: x: {imuF.format(gyroValues.x)} y: {imuF.format(gyroValues.y)} z: {imuF.format(gyroValues.z)}"
-                self.publisher_.publish(msg_2)
+                self.gyroscope_publisher_.publish(msg_2)
                 self.get_logger().info("%s" % msg_2.data)
                 self.i += 1
 
@@ -113,19 +113,19 @@ class MinimalPublisher(Node):
 
                 msg_3 = String()
                 msg_3.data = f"Rotation vector timestamp: {tsF.format(timeDeltaToMilliS(rvTs))} ms"
-                self.publisher_.publish(msg_3)
+                self.rotation_publisher_.publish(msg_3)
                 self.get_logger().info("%s" % msg_3.data)
                 self.i += 1
 
                 msg_4 = String()
                 msg_4.data = f"Quaternion: i: {imuF.format(rVvalues.i)} j: {imuF.format(rVvalues.j)}" f"k: {imuF.format(rVvalues.k)} real: {imuF.format(rVvalues.real)}"
-                self.publisher_.publish(msg_4)
+                self.quarternion_publisher_.publish(msg_4)
                 self.get_logger().info("%s" % msg_4.data)
                 self.i += 1
 
                 msg_5 = String()
                 msg_5.data = f"Accuracy (rad): {imuF.format(rVvalues.rotationVectorAccuracy)}"
-                self.publisher_.publish(msg_5)
+                self.accuracy_publisher_.publish(msg_5)
                 self.get_logger().info("%s" % msg_5.data)
                 self.i += 1
 
