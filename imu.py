@@ -1,0 +1,50 @@
+#!/usr/bin/env python3
+
+import cv2
+import depthai as dai
+import time
+import math
+
+def setup():
+    pipeline = dai.Pipeline()
+    imu = pipeline.create(dai.node.IMU)
+    xlinkOut = pipeline.create(dai.node.XLinkOut)
+    xlinkOut.setStreamName("imu")
+
+    # enable ACCELEROMETER_RAW at 500 hz rate
+    imu.enableIMUSensor(dai.IMUSensor.ACCELEROMETER_RAW, 500)
+    # enable GYROSCOPE_RAW at 400 hz rate
+    imu.enableIMUSensor(dai.IMUSensor.GYROSCOPE_RAW, 400)
+    # it's recommended to set both setBatchReportThreshold and setMaxBatchReports to 20 when integrating in a pipeline with a lot of input/output connections
+    # above this threshold packets will be sent in batch of X, if the host is not blocked and USB bandwidth is available
+    imu.setBatchReportThreshold(1)
+    # maximum number of IMU packets in a batch, if it's reached device will block sending until host can receive it
+    # if lower or equal to batchReportThreshold then the sending is always blocking on device
+    # useful to reduce device's CPU load  and number of lost packets, if CPU load is high on device side due to multiple nodes
+    imu.setMaxBatchReports(10)
+
+    # Link plugins IMU -> XLINK
+    imu.out.link(xlinkOut.input)
+    return pipeline
+
+# Pipeline is defined, now we can connect to the device
+with dai.Device(setup()) as device:
+
+
+    # Output queue for imu bulk packets
+    imuQueue = device.getOutputQueue(name="imu", maxSize=50, blocking=False)
+    while True:
+        imuData = imuQueue.get()  # blocking call, will wait until a new data has arrived
+        imuPackets = imuData.packets
+        
+        for imuPacket in imuPackets:
+            acceleroValues = imuPacket.acceleroMeter
+            gyroValues = imuPacket.gyroscope            
+
+            imuF = "{:.06f}"
+
+            print(f"Accelerometer [m/s^2]: x: {imuF.format(acceleroValues.x)} y: {imuF.format(acceleroValues.y)} z: {imuF.format(acceleroValues.z)}")
+            print(f"Gyroscope [rad/s]: x: {imuF.format(gyroValues.x)} y: {imuF.format(gyroValues.y)} z: {imuF.format(gyroValues.z)} ")
+
+        if cv2.waitKey(1) == ord('q'):
+            break
