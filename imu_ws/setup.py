@@ -22,6 +22,8 @@ setup(
         'console_scripts': [
         	'imu_talker = imu_ws.imu_pub:main',
         	'imu_listener = imu_ws.imu_sub:main',
+        	'gps_talker = imu_ws.gps_pub:main',
+        	'gps_listener = imu_ws.gps_sub:main',
         ],
     },
 )
