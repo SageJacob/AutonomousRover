@@ -14,10 +14,9 @@ def setup():
     return pipeline
 
 def imu():
-    start = None
+    start = 0
     flag = 0
-    curr = None
-    prev = None
+    iterations = 100
 
     with dai.Device(setup()) as device:
 
@@ -30,10 +29,13 @@ def imu():
                 rVvalues = imuPacket.rotationVector        
                 r = R.from_quat([rVvalues.real, rVvalues.i, rVvalues.j, rVvalues.k]) 
                 rotation = r.as_euler('zyz', degrees=True)
-                if flag == 0:
-                    start = rotation[2] + 180
-                    flag = 1
+                if flag < iterations:
+                    start += rotation[2]
+                    flag += 1
                     continue
+                if flag == iterations:
+                    start = start / iterations + 180
+                    flag += 1
                 raw = rotation[2] + 180
                 if raw > start:
                     out = raw - start
