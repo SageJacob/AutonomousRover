@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-
-import cv2
 import depthai as dai
-import time
-import math
 from scipy.spatial.transform import Rotation as R
 
 def setup():
@@ -24,10 +20,9 @@ prev = None
 
 with dai.Device(setup()) as device:
 
-    # Output queue for imu bulk packets
     imuQueue = device.getOutputQueue(name="imu", maxSize=50, blocking=False)
     while True:
-        imuData = imuQueue.get()  # blocking call, will wait until a new data has arrived
+        imuData = imuQueue.get()
         imuPackets = imuData.packets
         
         for imuPacket in imuPackets:
@@ -47,6 +42,3 @@ with dai.Device(setup()) as device:
                 out = 0
             out = int(((out + 180) % 360) - 180)
             print(out)
-
-        if cv2.waitKey(1) == ord('q'):
-            break
