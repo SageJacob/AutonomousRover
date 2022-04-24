@@ -56,7 +56,7 @@ def process(angle_to_distance, ranges):
         if not max_value or open_path[i] > max_value:
             max_key, max_value = i, open_path[i]
             continue
-    degrees_to_turn = ranges[int((int(max_key) + (int(max_key) + max_value)) / 2)]
+    degrees_to_turn = ranges[int(int(max_key) + max_value / 2)]
     return degrees_to_turn
 
 def run_lidar():
