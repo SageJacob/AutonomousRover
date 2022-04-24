@@ -65,14 +65,17 @@ def process(angle_to_distance, ranges):
     if index > -1:
         open_path[str(index)] = counter
     print(open_path)
-    max_key, max_value = None, None
-    for i in open_path:
-        if not max_value or open_path[i] > max_value:
-            max_key, max_value = i, open_path[i]
-            continue
     if open_path:
+        max_key, max_value = None, None
+        for i in open_path:
+            if not max_value or open_path[i] > max_value:
+                max_key, max_value = i, open_path[i]
+                continue
     	degrees_to_turn = ranges[int(int(max_key) + max_value / 2)]
     else:
+        '''
+            This code is executed if there is no open path.
+        '''
     	degrees_to_turn = -1
     return degrees_to_turn
 
@@ -147,7 +150,6 @@ def run_lidar():
             continue
         #################### Do stuff below here #########################
         angle = process(angle_to_distance, ranges)
-        print('imu angle: ', angle)
         servo_angle(angle)
 
 
