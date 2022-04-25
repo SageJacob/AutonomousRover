@@ -5,6 +5,12 @@ from    rclpy.node          import Node
 from    sensor_msgs.msg     import Image, LaserScan
 from    cv_bridge           import CvBridge
 
+'''
+	This file performs all object detection work for the rover's simulation. Due to hardware performance limitations, our team could not use
+	popular object detection methods like YOLO, resulting in our independently-authored detection algorithm.
+'''
+
+
 bridge = CvBridge()
 
 distance_info = []
