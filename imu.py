@@ -2,6 +2,12 @@
 import depthai as dai
 from scipy.spatial.transform import Rotation as R
 
+'''
+    This file utilizes the OAK-D's IMU to keep track of the current angle of the rover relative to its starting position. If the rover doesn't turn, 
+    the output will print 0. If the rover turns to the right 10 degrees, the output will print 10. If the rover then turnes left 15 degrees, the
+    output will print -5.
+'''
+
 def setup():
     pipeline = dai.Pipeline()
     imu = pipeline.create(dai.node.IMU)
