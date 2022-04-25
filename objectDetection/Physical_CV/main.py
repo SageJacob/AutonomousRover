@@ -14,6 +14,12 @@ import math
 import time
 import json
 
+'''
+            This file performs all OAK-D object detection work such as drawing bounding boxes over detected objects in the image,
+            clacluating each objects width, distance, angular size/position, and writes lidar-replicated data to a json file to
+            be read by replaceLidar.py if the actual lidar component ever goes offline.
+'''
+
 CONF_THRESHOLD = 0.15
 # Size of screen
 SHAPE = 320
