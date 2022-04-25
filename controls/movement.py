@@ -82,13 +82,15 @@ def process(angle_to_distance, ranges):
     return degrees_to_turn
 
 def servo_angle(angle):
+    left, right, middle = 50, 150, 90
 	print('before: ', angle)
 	ser = serial.Serial('/dev/ttyACM0', 9600, timeout=1)
-
-	if angle > 300:
-		angle = 90 + (360 - angle)
-	else:
-		angle = 90 - angle
+    if angle > 354 or angle < 5:
+        angle = middle
+    elif angle > 5 and angle < 90:
+        angle = right
+    else:
+        angle = left
 	print('after: ', angle)
 	#25-140
 	
