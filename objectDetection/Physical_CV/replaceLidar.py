@@ -6,6 +6,11 @@ import json
 from rclpy.node import Node
 import time
 
+'''
+	This file subscribes to /scan to check if lidar is functional. While /scan is functional, its data is being published to /laser.
+	Once /scan stops, /laser is filled with lidar-replicated data provided by the OAK-D.
+'''
+
 qos_policy = rclpy.qos.QoSProfile(reliability=rclpy.qos.ReliabilityPolicy.BEST_EFFORT, \
     history=rclpy.qos.HistoryPolicy.KEEP_LAST, depth=1)
 
