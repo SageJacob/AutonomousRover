@@ -3,9 +3,13 @@
 ## Clips
 
 [Autonomous Rover - Simulation](https://youtu.be/n3SxMWBhOwM)
+
 [Object Detection Performance](https://youtube.com/shorts/BuMwp36cBrU?feature=share)
+
 [Find Largest Path](https://youtu.be/AoVCLV2Qi2g)
+
 [IMU Rotation Tracking](https://youtu.be/EcaCT_b3m4c)
+
 
 ## Overview
 
