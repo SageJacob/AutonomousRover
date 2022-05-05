@@ -6,8 +6,6 @@ Our project involves the creation of an autonomous rover that will be ejected fr
 
 UCF seniors spend two semesters working with their peers and advisors to create many different types of projects. Some of these projects are multi-disciplinary, including ours. Our project includes one mechanical engineering student, one computer engineering student, and four computer science students. These fields of study are all necessary for our the design, build, and programming of our project
 
-[LINK TO WEBSITE](https://adionarover.wixsite.com/ucfseniordesign)
-
 ## What Are We Making
 
 Our team is building a rover payload that will be held in a rocket to be deployed in the FAR 1030-5R competition. This requires our team to additionally build a sled and a canister that will contain our rover. 
