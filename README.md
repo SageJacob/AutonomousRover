@@ -8,13 +8,13 @@ With the hardware team unsuccessful in completing the construction of the rover 
 
 Here are clips from the software team as well as those responsible for it.
 
-Charles, Dillon, Jacob - [Autonomous Rover - Simulation](https://youtu.be/n3SxMWBhOwM)
+Charles (URDF, World File, Nav2), Dillon (Nav2), Jacob (Object Detection) - [Autonomous Rover - Simulation](https://youtu.be/n3SxMWBhOwM)
 
 Jacob - [Object Detection Performance](https://youtube.com/shorts/BuMwp36cBrU?feature=share)
 
-Charles, Jacob - [Find Largest Path](https://youtu.be/AoVCLV2Qi2g)
+Charles (logic), Jacob (logic, code) - [Find Largest Path](https://youtu.be/AoVCLV2Qi2g)
 
-Daniel, Jacob - [IMU Rotation Tracking](https://youtu.be/EcaCT_b3m4c)
+Daniel (logic), Jacob (logic, code) - [IMU Rotation Tracking](https://youtu.be/EcaCT_b3m4c)
 
 
 ## Overview
