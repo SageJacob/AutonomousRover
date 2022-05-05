@@ -1,14 +1,20 @@
 # ADIONA - Autonomous Rover
 
+## Project Outcome
+
+With the hardware team unsuccessful in completing the construction of the rover by the time the class concluded, this project was, unfortunately, dropped.
+
 ## Clips
 
-[Autonomous Rover - Simulation](https://youtu.be/n3SxMWBhOwM)
+Here are clips from the software team as well as those responsible for it.
 
-[Object Detection Performance](https://youtube.com/shorts/BuMwp36cBrU?feature=share)
+Charles, Dillon, Jacob - [Autonomous Rover - Simulation](https://youtu.be/n3SxMWBhOwM)
 
-[Find Largest Path](https://youtu.be/AoVCLV2Qi2g)
+Jacob - [Object Detection Performance](https://youtube.com/shorts/BuMwp36cBrU?feature=share)
 
-[IMU Rotation Tracking](https://youtu.be/EcaCT_b3m4c)
+Charles, Jacob - [Find Largest Path](https://youtu.be/AoVCLV2Qi2g)
+
+Daniel, Jacob - [IMU Rotation Tracking](https://youtu.be/EcaCT_b3m4c)
 
 
 ## Overview
