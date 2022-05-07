@@ -24,12 +24,12 @@ Charles (logic), Jacob (logic, code) - [Find Largest Path](https://youtu.be/AoVC
 
 Daniel (logic), Jacob (logic, code) - [IMU Rotation Tracking](https://youtu.be/EcaCT_b3m4c)
 
-### Autonomous Rover (ECE)
+## Autonomous Rover (ECE)
 
 – Rover that autonomously returns to designated launch pad with live
 video
 
-### Specifications and Requirements 
+## Specifications and Requirements 
 
 ● Minimum 2.2-lb (1.0 kg) Payload
 
@@ -51,7 +51,7 @@ video
 
 ● Must autonomously return to base
 
-### Why is it named Adiona? 
+## Why is it named Adiona? 
 
 Adiona is the name of the Roman goddess of safe return. Since our rover's responsibility is to return to the rocket base on it's own, we thought this would be a very fitting name.
 
