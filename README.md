@@ -1,17 +1,5 @@
 # ADIONA - Autonomous Rover
 
-## Overview
-
-Our project involves the creation of an autonomous rover that will be ejected from a rocket built by UCF students in various Senior Design groups. 
-
-UCF seniors spend two semesters working with their peers and advisors to create many different types of projects. Some of these projects are multi-disciplinary, including ours. Our project includes one mechanical engineering student, one computer engineering student, and four computer science students. These fields of study are all necessary for our the design, build, and programming of our project
-
-## What Are We Making
-
-Our team is building a rover payload that will be held in a rocket to be deployed in the FAR 1030-5R competition. This requires our team to additionally build a sled and a canister that will contain our rover. 
-
-Our rover will be required to use our own on-board power in order to function, have the the ability to withstand 8 G’s of force and heat from the rocket’s ejection event, and include a parachute attachment for use during deployment. Once it lands, it will need to locate the launch pad and return to it while displaying live video.
-
 ## Clips
 
 Here are clips from the software team as well as those responsible for it.
@@ -23,6 +11,18 @@ Jacob - [Object Detection Performance](https://youtube.com/shorts/BuMwp36cBrU?fe
 Charles (logic), Jacob (logic, code) - [Find Largest Path](https://youtu.be/AoVCLV2Qi2g)
 
 Daniel (logic), Jacob (logic, code) - [IMU Rotation Tracking](https://youtu.be/EcaCT_b3m4c)
+
+## Overview
+
+Our project involves the creation of an autonomous rover that will be ejected from a rocket built by UCF students in various Senior Design groups. 
+
+UCF seniors spend two semesters working with their peers and advisors to create many different types of projects. Some of these projects are multi-disciplinary, including ours. Our project includes one mechanical engineering student, one computer engineering student, and four computer science students. These fields of study are all necessary for our the design, build, and programming of our project
+
+## What Are We Making
+
+Our team is building a rover payload that will be held in a rocket to be deployed in the FAR 1030-5R competition. This requires our team to additionally build a sled and a canister that will contain our rover. 
+
+Our rover will be required to use our own on-board power in order to function, have the the ability to withstand 8 G’s of force and heat from the rocket’s ejection event, and include a parachute attachment for use during deployment. Once it lands, it will need to locate the launch pad and return to it while displaying live video.
 
 ## Autonomous Rover (ECE)
 
