@@ -57,7 +57,7 @@ Adiona is the name of the Roman goddess of safe return. Since our rover's respon
 
 ## Project Outcome
 
-With the hardware team unsuccessful in completing the construction of the rover by the time the class concluded, this project was, unfortunately, dropped.
+With the hardware team unsuccessful in completing the construction of the rover by the time the class concluded, this project was, unfortunately, dropped. The software team was successful in creating a simulated autonomous vehicle and was prepared for integration if the rover ever completed assembly.
 
 ## Members
 
